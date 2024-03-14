@@ -6,9 +6,12 @@ as arguments and returns a concatenated string
 """
 
 
-def concat(first_string: str, second_string: str) -> str:
+def concat(str1: str, str2: str) -> str:
     """
-    Concatenating two strings
+    Concatenating two strings.
+    Args:
+        str1 (str): Egg
+        str2 (str): shell
     """
-    new_string = first_string + second_string
-    return new_string
+    str3 = str1 + str2
+    return str3
