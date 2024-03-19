@@ -10,7 +10,7 @@ from typing import Generator
 async def async_generator() -> Generator[float, None, None]:
     """
     Coroutine that loosp 10 times
-    each time asynchronous wait 1 second then yield a 
+    each time asynchronous wait 1 second then yield a
     random number btn 0 and 10.
     """
 
