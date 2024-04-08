@@ -26,7 +26,6 @@ class TestAccessNestedMap(unittest.TestCase):
             path: Tuple[str],
             expected: Union[Dict, int],
             ) -> None:
-
         """ for access_nested_map"""
         self.assertEqual(access_nested_map(nested_map, path), expected)
 
@@ -40,7 +39,6 @@ class TestAccessNestedMap(unittest.TestCase):
             path: Tuple[str],
             exception: Exception,
             ) -> None:
-
         """exception raising for access_nested_map"""
         with self.assertRaises(exception):
             access_nested_map(nested_map, path)
